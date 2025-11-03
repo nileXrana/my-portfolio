@@ -87,7 +87,7 @@ const FeaturedProject = ({
             >
               <p className="text-dark-1">{description}</p>
               <div className="hidden my-3 font-mono text-xs capitalize lg:block text-accent lg:my-2 lg:mt-3">
-                tasks / achievements
+                description
               </div>
               <div className="hidden text-base lg:block lg:text-sm">
                 {tasks}
@@ -176,7 +176,7 @@ const FeaturedProject = ({
           <div className={cn('text-dark-1 space-y-2 text-sm')}>
             <p className="text-base text-dark-1">{description}</p>
             <div className="hidden my-3 font-mono text-xs capitalize lg:block text-accent lg:my-2 lg:mt-3">
-              tasks / achievements
+              description
             </div>
             <div className="mb-2 space-y-1">
               {tasks?.split(',').map((task) => (

@@ -18,7 +18,7 @@ const Contact = () => {
       <h2 className="heading-secondary !mb-5">{title}</h2>
 
       {paragraphs.map((paragraph, i) => (
-        <p key={i}>{paragraph}</p>
+        <p className='text-lg' key={i}>{paragraph}</p>
       ))}
 
       <Button type="link" size="lg" href={link} center className="mt-12">

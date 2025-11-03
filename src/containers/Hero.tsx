@@ -34,7 +34,7 @@ const Hero = () => {
         {subtitle}
       </motion.p>
 
-      <div className="max-w-5xl text-4xl font-bold tracking-tighter md:text-7xl">
+      <div className="max-w-5xl text-4xl font-bold tracking-tighter md:text-6xl">
         <motion.h1
           variants={slideUp({ delay: getAnimationDelay(1) })}
           initial="hidden"

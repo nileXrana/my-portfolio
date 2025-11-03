@@ -7,33 +7,34 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  instagram: 'https://www.instagram.com/vatsalsinghkv',
-  twitter: 'https://x.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  leetcode: 'https://leetcode.com/u/nileXrana/',
+  github: 'https://github.com/nilexrana',
+  linkedin: 'https://www.linkedin.com/in/nilexrana/',
+  gfg: 'https://www.geeksforgeeks.org/',
+  chef: 'https://www.codechef.com/users/nilexrana',
+  forces: 'https://codeforces.com/profile/nileXrana',
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'Nilesh Rana',
+  email: 'info.nilexrana@gmail.com',
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Front-End Developer',
+  title: 'Nilesh Rana | Full-Stack Developer',
   description:
-    'Vatsal Singh is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Nilesh Rana is a full-stack web developer who specializes in building end to end web applications.',
   author: author.name,
   image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://vatsalsinghkv.vercel.app/',
+    'https://nileshrana.me/landing.png',
+  url: 'https://nileshrana.me',
   keywords: [
-    'Vatsal',
-    'Vatsal Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
+    'Nilesh',
+    'Nilesh Rana',
+    '@nilexrana',
+    'nilexrana',
     'Portfolio',
-    'Vatsal Portfolio ',
-    'Vatsal Singh Portfolio',
+    'Nilesh Portfolio ',
+    'Nilesh Rana Portfolio',
   ],
 };

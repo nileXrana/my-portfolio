@@ -1,6 +1,8 @@
 import { SkillsSectionType } from '@/lib/types/sections';
 import { getId } from '@/lib/utils/helper';
 
+
+
 export const skillsSection: SkillsSectionType = {
   title: 'what i do',
   skills: [
@@ -13,15 +15,14 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-        'Building full-stack web applications using Next.js with TypeScript, TailwindCSS, ShadCN, and Prisma',
-        'Developing responsive single-page applications using React.js',
-        'Creating RESTful APIs using Express for backend development',
+        'Building full-stack web applications using Next.js with TypeScript, TailwindCSS and Prisma ORM.',
+        'Creating RESTful APIs using Express for backend development.',
+        'Deploying applications on Vercel, Render, Railway and Dockerized environments.',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
         { name: 'html-5', icon: 'vscode-icons:file-type-html' },
         { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
-        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
         {
           name: 'typeScript',
@@ -29,31 +30,32 @@ export const skillsSection: SkillsSectionType = {
         },
         { name: 'nodejs', icon: 'logos:nodejs-icon' },
         { name: 'prisma', icon: 'vscode-icons:file-type-prisma' },
+        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
         { name: 'reactjs', icon: 'logos:react' },
         { name: 'nextjs', icon: 'logos:nextjs-icon' },
-        // { name: 'angularjs', icon: 'logos:angular-icon' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
         { name: 'redux', icon: 'logos:redux' },
-        { name: 'database', icon: 'vscode-icons:file-type-sql' },
-        { name: 'jest', icon: 'vscode-icons:file-type-jest' },
+        { name: 'database', icon: 'vscode-icons:file-type-sql' }
       ],
     },
     {
       id: getId(),
-      title: 'UI/UX designing',
+      title: 'Problem Solving',
       lottie: {
         light: '/lotties/designing.json',
         dark: '/lotties/designing-dark.json',
       },
       points: [
-        'Experience in designing user-friendly interfaces with figma',
-        'Experience in developing design systems and style guides',
-        'Providing user-friendly design solutions',
+        'LeetCode: 400+ problems solved, Highest Contest Rating: 1660.',
+        'GeeksforGeeks: 100+ problems solved.',
+        'CodeChef: 50+ problems solved.',
+        'Codeforces: 50+ problems solved.',
       ],
       softwareSkills: [
-        { name: 'figma', icon: 'logos:figma' },
-        { name: 'adobe illustrator', icon: 'logos:adobe-illustrator' },
-        { name: 'adobe photoshop', icon: 'logos:adobe-photoshop' },
+        { name: 'leetcode', icon: 'devicon:leetcode' },
+        { name: 'geeksforgeeks', icon: 'simple-icons:geeksforgeeks' },
+        { name: 'codechef', icon: 'simple-icons:codechef' },
+        { name: 'codeforces', icon: 'simple-icons:codeforces' },
       ],
     },
   ],

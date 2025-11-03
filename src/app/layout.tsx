@@ -1,6 +1,7 @@
 import { seoData } from '@/lib/content/portfolio';
 import ThemeProvider from '@/lib/hooks/use-theme';
 import fontVariables from '@/lib/utils/fonts';
+import "./global.css";
 
 import Cursor from '@/components/ui/Cursor';
 
@@ -35,37 +36,11 @@ export const metadata: Metadata = {
     images: seoData.image,
     site: seoData.url,
   },
-  icons: [
-    {
-      rel: 'apple-touch-icon',
-      sizes: '120x120',
-      url: '/favicons/apple-touch-icon.png',
-    },
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '512x512',
-      url: '/favicons/android-chrome-512x512.png',
-    },
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '192x192',
-      url: '/favicons/android-chrome-192x192.png',
-    },
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '32x32',
-      url: '/favicons/favicon-32x32.png',
-    },
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '16x16',
-      url: '/favicons/favicon-16x16.png',
-    },
-  ],
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
