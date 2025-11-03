@@ -53,18 +53,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 📝 Customization
-
-All content is centralized in `src/lib/content/` for easy updates:
-
-- `portfolio.ts` - Personal info and social links
-- `hero.ts` - Hero section content
-- `about.ts` - About section
-- `skills.ts` - Skills and technologies
-- `experience.ts` - Work experience
-- `projects.ts` - Project showcase
-- `featured-projects.ts` - Featured projects
-
 ## 📂 Project Structure
 
 ```
@@ -87,7 +75,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📧 Contact
 
-Nilesh Rana - [@nilexrana](https://github.com/nilexrana) - info.nilexrana@gmail.com
+Nilesh Rana - [@nilexrana](https://github.com/nilexrana)
 
 Portfolio: [nileshrana.me](https://nileshrana.me)
 
