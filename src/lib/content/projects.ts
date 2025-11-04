@@ -33,6 +33,15 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
+      name: 'Basic Calculator',
+      url: 'https://nilesh-calculator.vercel.app/',
+      repo: 'https://github.com/nileXrana/Basic_Calculator',
+      img: '/calc.png',
+      year: 2025,
+      tags: ['html', 'css', 'JvaScript'],
+    },
+    {
+      id: getId(),
       name: 'bit links',
       url: 'https://bit-links-pearl.vercel.app/',
       repo: 'https://github.com/nileXrana/BitLinks',
@@ -48,15 +57,6 @@ export const projectsSection: ProjectsSectionType = {
       img: '/travelbot.png',
       year: 2025,
       tags: ['NextJS', 'TypeScript'],
-    },
-    {
-      id: getId(),
-      name: 'Basic Calculator',
-      url: 'https://nilesh-calculator.vercel.app/',
-      repo: 'https://github.com/nileXrana/Basic_Calculator',
-      img: '/calc.png',
-      year: 2025,
-      tags: ['html', 'css', 'JvaScript'],
     },
   ],
 };
