@@ -31,13 +31,13 @@ const Skills = () => {
       </div>
 
       <Image 
-        onClick={() => window.open('https://leetcode.com/u/nileXrana', '_blank')}
+        onClick={() => window.open('https://leetcode.com/u/nileXrana', 'blank')}
         src="/heatmap.png"
         alt="Nilesh Rana"
         width={1000}
         height={1000}
-        className="mx-auto mt-6 rounded-xl opacity-80"
-      /> 
+        className="mx-auto rounded-xl opacity-80 cursor-pointer"
+      />
     </Wrapper>
   );
 };
