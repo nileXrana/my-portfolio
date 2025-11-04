@@ -6,6 +6,8 @@ import { Skill, Wrapper } from '@/components';
 
 import { getSectionAnimation } from '@/styles/animations';
 
+import Image from 'next/image';
+
 const Skills = () => {
   const { title, skills } = skillsSection;
   const { isDarkMode } = useTheme();
@@ -27,6 +29,15 @@ const Skills = () => {
           />
         ))}
       </div>
+
+      <Image 
+        onClick={() => window.open('https://leetcode.com/u/nileXrana', '_blank')}
+        src="/heatmap.png"
+        alt="Nilesh Rana"
+        width={1000}
+        height={1000}
+        className="mx-auto mt-6 rounded-xl opacity-80"
+      /> 
     </Wrapper>
   );
 };
