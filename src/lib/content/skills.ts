@@ -1,8 +1,6 @@
 import { SkillsSectionType } from '@/lib/types/sections';
 import { getId } from '@/lib/utils/helper';
 
-
-
 export const skillsSection: SkillsSectionType = {
   title: 'what i do',
   skills: [
@@ -35,7 +33,7 @@ export const skillsSection: SkillsSectionType = {
         { name: 'nextjs', icon: 'logos:nextjs-icon' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
         { name: 'redux', icon: 'logos:redux' },
-        { name: 'database', icon: 'vscode-icons:file-type-sql' }
+        { name: 'database', icon: 'vscode-icons:file-type-sql' },
       ],
     },
     {

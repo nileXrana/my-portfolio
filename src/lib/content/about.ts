@@ -7,7 +7,6 @@ export const aboutSection: AboutSectionType = {
   list: {
     title: 'Here are a few technologies I’ve worked with:',
     items: [
-      
       'NextJs',
       'ReactJs',
       'TailwindCSS',

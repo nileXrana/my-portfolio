@@ -1,7 +1,6 @@
 import {
   About,
   Contact,
-  Experience,
   FeaturedProjects,
   Hero,
   Layout,
