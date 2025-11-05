@@ -45,13 +45,11 @@ export const skillsSection: SkillsSectionType = {
       },
       points: [
         'LeetCode: 400+ problems solved, Highest Contest Rating: 1660.',
-        'GeeksforGeeks: 50+ problems solved.',
         'CodeChef: 50+ problems solved.',
         'Codeforces: 50+ problems solved.',
       ],
       softwareSkills: [
         { name: 'leetcode', icon: 'devicon:leetcode' },
-        { name: 'geeksforgeeks', icon: 'simple-icons:geeksforgeeks' },
         { name: 'codechef', icon: 'simple-icons:codechef' },
         { name: 'codeforces', icon: 'simple-icons:codeforces' },
       ],

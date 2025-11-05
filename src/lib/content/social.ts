@@ -16,10 +16,6 @@ export const socialSection: SocialSectionType = {
       url: socialLinks.leetcode,
     },
     {
-      icon: 'simple-icons:geeksforgeeks',
-      url: socialLinks.gfg,
-    },
-    {
       icon: 'simple-icons:codechef',
       url: socialLinks.chef,
     },
