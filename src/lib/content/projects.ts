@@ -43,7 +43,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'bit links',
-      url: 'https://bit-links-pearl.vercel.app/',
+      url: 'https://bitlinks.nileshrana.me',
       repo: 'https://github.com/nileXrana/BitLinks',
       img: '/bitlinks.png',
       year: 2025,
