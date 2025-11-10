@@ -24,6 +24,16 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
       img: '/syntaxist.png',
       tags: ['NextJs', 'TypeScript', 'Express', 'WebSocket', 'Docker'],
     },
+    {
+      id: getId(),
+      name: 'Bitlinks',
+      description: 'A URL shortening service.',
+      tasks:
+        'Shorten your URLs and share them easily. Track clicks and manage your links with a simple interface.',
+      url: 'https://bitlinks.nileshrana.me/',
+      img: '/bitlinks.png',
+      tags: ['NextJs', 'TailwindCSS', 'MongoDB'],
+    },
   ],
 };
 
