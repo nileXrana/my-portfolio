@@ -44,9 +44,9 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/designing-dark.json',
       },
       points: [
-        'LeetCode: 400+ problems solved, Highest Contest Rating: 1660.',
-        'CodeChef: 50+ problems solved.',
-        'Codeforces: 50+ problems solved.',
+        'LeetCode: 500+ problems solved, Highest Contest Rating: 1660.',
+        'CodeChef: 100+ problems solved.',
+        'Codeforces: 100+ problems solved.',
       ],
       softwareSkills: [
         { name: 'leetcode', icon: 'devicon:leetcode' },
