@@ -13,7 +13,7 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-        'Building full-stack web applications using Next.js with TypeScript, TailwindCSS and Prisma ORM.',
+        'Building end-to-end web applications using Next.js with TypeScript, TailwindCSS and Prisma ORM.',
         'Creating RESTful APIs using Express for backend development.',
         'Deploying applications on Vercel, Render, Railway and Dockerized environments.',
       ],

@@ -81,13 +81,13 @@ export default function RootLayout({
     url: 'https://nileshrana.me',
     image: 'https://nileshrana.me/nilesh.jpeg',
     email: 'info.nilexrana@gmail.com',
-    jobTitle: 'Full-Stack Web Developer',
+    jobTitle: 'Web Developer',
     worksFor: {
       '@type': 'Organization',
       name: 'Freelance',
     },
     description:
-      'Full-Stack Web Developer specializing in React.js, Next.js, Node.js, TypeScript, and modern web technologies.',
+      'Web Developer specializing in React.js, Next.js, Node.js, TypeScript, and modern web technologies.',
     sameAs: [
       'https://github.com/nilexrana',
       'https://www.linkedin.com/in/nilexrana/',
