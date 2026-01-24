@@ -47,7 +47,7 @@ export const metadata: Metadata = {
         url: seoData.image,
         width: 1200,
         height: 630,
-        alt: 'Nilesh Rana - Full-Stack Developer Portfolio',
+        alt: 'Nilesh Rana - Web Developer Portfolio',
       },
     ],
   },

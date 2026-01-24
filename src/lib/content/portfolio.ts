@@ -21,9 +21,9 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Nilesh Rana | Full-Stack Developer | React, Next.js, Node.js Expert',
+  title: 'Nilesh Rana | Web Developer | React, Next.js, Node.js Expert',
   description:
-    'Nilesh Rana is a passionate Full-Stack Web Developer specializing in React.js, Next.js, Node.js, TypeScript, and modern web technologies. Building scalable, user-focused web applications with clean code and exceptional UI/UX. Available for freelance projects and full-time opportunities.',
+    'Nilesh Rana is a passionate web developer specializing in React.js, Next.js, Node.js, TypeScript, and modern web technologies. Building scalable, user-focused web applications with clean code and exceptional UI/UX. Available for freelance projects and full-time opportunities.',
   author: author.name,
   image: 'https://nileshrana.me/nilesh.jpeg',
   url: 'https://nileshrana.me',

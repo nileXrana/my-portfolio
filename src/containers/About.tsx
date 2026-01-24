@@ -33,7 +33,7 @@ const About = () => {
             >
               Lovely Professional University
             </Link>
-            .<br /> I’m a full-stack developer who builds fast, modern, and
+            .<br /> I’m a web developer who builds fast, modern, and
             scalable web applications. I love turning ideas into clean,
             functional products using modern tools and technologies.
           </p>

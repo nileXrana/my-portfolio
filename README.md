@@ -1,6 +1,6 @@
 # 💼 Nilesh Rana - Portfolio
 
-A modern, responsive portfolio website showcasing my work as a Full-Stack Developer. Built with Next.js, TypeScript, and Tailwind CSS, featuring smooth animations and an intuitive user experience.
+A modern, responsive portfolio website showcasing my work as a Web Developer. Built with Next.js, TypeScript, and Tailwind CSS, featuring smooth animations and an intuitive user experience.
 
 🔗 **Live Demo:** [nileshrana.me](https://nileshrana.me)
 

@@ -6,7 +6,7 @@ export const experienceSection: ExperienceSectionType = {
     {
       company: 'Dashseller',
       companyUrl: 'https://www.dashseller.com/',
-      role: 'full-stack developer',
+      role: 'web developer',
       started: 'sep 2024',
       upto: 'nov 2024',
       tasks: [
