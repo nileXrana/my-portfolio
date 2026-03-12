@@ -6,6 +6,7 @@ import {
   Layout,
   Projects,
   Skills,
+  Experience,
 } from '@/containers';
 
 import type { NextPage } from 'next';
@@ -23,7 +24,7 @@ const Home: NextPage = () => {
         <Hero />
         <About />
         <Skills />
-        {/* <Experience /> */}
+        <Experience />
         <FeaturedProjects />
         <Projects />
         <Contact />
