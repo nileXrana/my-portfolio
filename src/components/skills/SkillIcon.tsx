@@ -1,5 +1,7 @@
-import { Icon } from '@iconify/react';
 import { SoftwareSkillType } from '@/lib/types';
+
+import { Icon } from '@iconify/react';
+import Image from 'next/image';
 
 type Props = {
   skill: SoftwareSkillType;
@@ -11,18 +13,20 @@ const SkillIcon = ({ skill }: Props) => {
   const iconItem = (
     <div
       className={`relative grid shadow-md bg-bg-secondary dark:shadow-xl place-items-center group ${image
-          ? 'rounded-xl min-h-14 min-w-14 px-2 py-2 sm:min-h-16 sm:min-w-16'
-          : 'text-2xl rounded-full h-14 w-14 sm:h-16 sm:w-16'
+        ? 'rounded-xl min-h-14 min-w-14 px-2 py-2 sm:min-h-16 sm:min-w-16'
+        : 'text-2xl rounded-full h-14 w-14 sm:h-16 sm:w-16'
         }`}
     >
       {icon ? (
         <Icon icon={icon} width="32" height="32" />
       ) : image ? (
-        <img
+        <Image
           src={image}
           alt={alt || name}
+          width={120}
+          height={40}
+          unoptimized
           className="max-h-8 max-w-[120px] object-contain sm:max-h-10"
-          loading="lazy"
         />
       ) : null}
 
@@ -41,14 +45,12 @@ const SkillIcon = ({ skill }: Props) => {
     </div>
   );
 
-  return (
-    url ? (
-      <a href={url} target="_blank" rel="noreferrer" aria-label={name}>
-        {iconItem}
-      </a>
-    ) : (
-      iconItem
-    )
+  return url ? (
+    <a href={url} target="_blank" rel="noreferrer" aria-label={name}>
+      {iconItem}
+    </a>
+  ) : (
+    iconItem
   );
 };
 

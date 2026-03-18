@@ -1,12 +1,12 @@
 import {
   About,
   Contact,
+  Experience,
   FeaturedProjects,
   Hero,
   Layout,
   Projects,
   Skills,
-  Experience,
 } from '@/containers';
 
 import type { NextPage } from 'next';
