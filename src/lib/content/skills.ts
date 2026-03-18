@@ -44,14 +44,52 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/designing-dark.json',
       },
       points: [
-        'LeetCode: 500+ problems solved, Highest Contest Rating: 1660.',
-        'CodeChef: 100+ problems solved.',
-        'Codeforces: 100+ problems solved.',
+        '500+ problems solved on LeetCode.',
+        'Highest Contest Rating: 1660.',
+        'Preferred language: Java.'
       ],
       softwareSkills: [
-        { name: 'leetcode', icon: 'devicon:leetcode' },
-        { name: 'codechef', icon: 'simple-icons:codechef' },
-        { name: 'codeforces', icon: 'simple-icons:codeforces' },
+        {
+          name: 'leetcode',
+          icon: 'devicon:leetcode',
+          url: 'https://leetcode.com/nilexrana/',
+        },
+        {
+          name: '500+ solved',
+          image:
+            'https://img.shields.io/badge/LeetCode-500%2B%20Solved-FFA116?logo=leetcode&logoColor=white',
+          url: 'https://leetcode.com/nilexrana/',
+        },
+        {
+          name: 'contest rating 1660',
+          image:
+            'https://img.shields.io/badge/Contest%20Rating-1660-1f8acb?logo=leetcode&logoColor=white',
+          url: 'https://leetcode.com/nilexrana/',
+        },
+        {
+          name: '50 day badge',
+          image:
+            'https://img.shields.io/badge/LeetCode-50%20Days-f59e0b?logo=leetcode&logoColor=white',
+          url: 'https://leetcode.com/nilexrana/',
+        },
+        {
+          name: '100 day badge',
+          image:
+            'https://img.shields.io/badge/LeetCode-100%20Days-f97316?logo=leetcode&logoColor=white',
+          url: 'https://leetcode.com/nilexrana/',
+        },
+        {
+          name: '200 day badge',
+          image:
+            'https://img.shields.io/badge/LeetCode-200%20Days-ef4444?logo=leetcode&logoColor=white',
+          url: 'https://leetcode.com/nilexrana/',
+        },
+        {
+          name: '365 day badge',
+          image:
+            'https://img.shields.io/badge/LeetCode-365%20Days-7c3aed?logo=leetcode&logoColor=white',
+          url: 'https://leetcode.com/nilexrana/',
+        },
       ],
     },
   ],

@@ -10,9 +10,6 @@ export const socialLinks: StringKeyValueType = {
   leetcode: 'https://leetcode.com/u/nileXrana/',
   github: 'https://github.com/nilexrana',
   linkedin: 'https://www.linkedin.com/in/nilexrana/',
-  gfg: 'https://www.geeksforgeeks.org/user/nilesh7500/',
-  chef: 'https://www.codechef.com/users/nilexrana',
-  forces: 'https://codeforces.com/profile/nileXrana',
 };
 
 export const author = {

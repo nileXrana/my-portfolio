@@ -47,6 +47,12 @@ export type StringKeyValueType = {
 
 export type Direction = 'up' | 'right' | 'down' | 'left';
 
-export type SoftwareSkillType = { name: string; icon: string };
+export type SoftwareSkillType = {
+  name: string;
+  icon?: string;
+  image?: string;
+  url?: string;
+  alt?: string;
+};
 
 export type BreakpointType = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl';
